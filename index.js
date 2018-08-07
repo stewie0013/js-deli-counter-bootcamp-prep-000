@@ -25,4 +25,6 @@ function currentLine(katzDeliLine) {
       }
     }  
   }
+  
+  return retString
 }

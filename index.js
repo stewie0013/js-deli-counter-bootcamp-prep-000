@@ -20,8 +20,8 @@ function currentLine(katzDeliLine) {
     var retString = "The line is currently: "
     for (var i = 1; i <= katzDeliLine.length; ++i) {
       retString += `${i}. ${katzDeliLine[i]}`
-      if (i === katzDeliLine.length) {
-        retString
+      if (i !== katzDeliLine.length) {
+        retString += ","
       }
     }  
   }

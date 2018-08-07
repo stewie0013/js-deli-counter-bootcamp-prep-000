@@ -21,7 +21,7 @@ function currentLine(katzDeliLine) {
     for (var i = 1; i <= katzDeliLine.length; ++i) {
       retString += `${i}. ${katzDeliLine[i]}`
       if (i === katzDeliLine.length) {
-        
+        retString
       }
     }  
   }
